@@ -1,0 +1,97 @@
+/*
+
+
+        CLASSES FOR TEXTS USABLE EVERYWHERE ON THIS SITE
+
+
+
+*/
+
+/*
+    CLASSES FOR THE SIZE OF THE TEXT
+*/
+.enormous-text {
+    font-size: 80px;
+}
+.big-text {
+    font-size: 50px;
+}
+.mid-text {
+    font-size: 30px;
+}
+.little-mid-text {
+    font-size: 20px;
+}
+.little-text {
+    font-size: 15px;
+}
+.min-text {
+    font-size: 8px;
+}
+/*
+    CLASSES FOR THE COLOR OF THE TEXT
+*/
+.black-text {
+    color: #000;
+}
+.dark-grey-text {
+    color: rgb(73, 73, 73);
+}
+.grey-text {
+    color: grey;
+}
+.white-text {
+    color: #fff;
+}
+.orange-text {
+    color: orange;
+}
+.mid-dark-orange-text {
+    color: rgb(206, 59, 14);
+}
+.red-text {
+    color: rgb(226, 1, 1);
+}
+.blue-text {
+    color: rgb(19, 123, 207);
+    
+}
+.insta-text {
+    background: -webkit-linear-gradient(120deg, #db6d07e7 0%, #6f0bc0ce);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: .7s;
+}
+/*
+    CLASSES FOR THE ALIGNMENT OF THE TEXT
+*/
+.center-text {
+    text-align: center;
+    justify-content: center;
+}
+.left-text {
+    text-align: left;
+}
+.right-text {
+    text-align: right;
+}
+.bott-text {
+    vertical-align: bottom;
+}
+.up-text {
+    vertical-align: top;
+}
+.mid-text {
+    vertical-align: middle;
+}
+/*
+
+
+        CLASSES FOR TEXT USABLE FOR PARENT/CHILD SYSTEM AND UNDERTSABILITY    
+
+
+*/
+.title {
+    text-decoration: underline;
+    text-decoration-color: green;
+}
