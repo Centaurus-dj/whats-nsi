@@ -25,12 +25,12 @@
 }
 
 .nav .nav-dir a:hover {
-    color: rgb(11, 85, 155)
+    color: #19b8d2
 }
 
 .nav-dir .menu {
     font-size: 60px;
-    color: rgb(11, 85, 155)
+    color: #19b8d2
 }
 
 /*
@@ -41,12 +41,12 @@
 .sidebar {
     height: 100%;
     width: 20%;
-    margin-left: -300px;
+    margin-left: -400px;
     background-color: rgb(30, 30, 31);
     overflow: hidden;
     transition: 0.4s;
     font-size: 30px;
-    border-right: 7px solid rgb(11, 85, 155);
+    border-right: 7px solid #19b8d2;
     position: absolute;
 }
 

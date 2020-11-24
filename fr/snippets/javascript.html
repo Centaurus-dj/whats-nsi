@@ -3,9 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/master.css">
     <title>Document</title>
 </head>
 <body>
     Le Numérique et la Science Informatique
+
+    <div class="code-area">
+      <pre>
+        <code id="code-snippet">
+          &lt;!DOCTYPE html&gt;
+          &lt;html&gt;
+            &lt;head&gt;
+              &lt;link rel="stylesheet" href="/css/master.css"&gt;
+              &lt;style&gt;
+                .section {
+                  background: #345278;
+                  padding: 10px;
+                  test: "wala";
+                }
+                /* This is a comment */
+                body {
+                  background: #fff
+                }
+              &lt;/style&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &lt;!-- This is a comment --&gt;
+              &lt;h1&gt;Testing an HTML Syntax Highlighter&lt;/h2&gt;
+              &lt;p&gt;Hello world!&lt;/p&gt;
+              &lt;a href="https://www.w3schools.com"&gt;Back to School&lt;/a&gt;
+
+              &lt;script&gt;
+                function Test(){
+                  // This is a comment
+                  var test = true;
+                  var fuck = 0;
+                  var ok = "d'accord";
+                }
+              &lt;/script&gt;
+            &lt;/body&gt;
+          &lt;/html&gt;
+        </code>
+      </pre>
+    </div>
+    <br>
+    <div class="code-area">
+      <pre>
+        <code id="code-snippet-python">
+          def Test(arg):
+            test = True
+            # test
+
+            test = 0
+            # test
+            test = "a"
+
+          a.opt(arg)
+        </code>
+      </pre>
+    </div>
+
 </body>
+<script src="/js/syntax_highlight.js" charset="utf-8"></script>
 </html>

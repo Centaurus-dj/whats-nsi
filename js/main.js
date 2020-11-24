@@ -9,7 +9,7 @@ function OpenSideNavBar(){
     if (window.sidebar_open){
         document.getElementById("close-sidebar").classList.toggle("hide");
         document.getElementById("open-sidebar").classList.toggle("hide");
-        document.getElementById("nav-sidebar").style.marginLeft = "-300px";
+        document.getElementById("nav-sidebar").style.marginLeft = "-400px";
         window.sidebar_open = false;
         console.log("Navbar closed");
     }

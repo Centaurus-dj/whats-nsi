@@ -1,0 +1,38 @@
+.code-area {
+  margin-left: 30%;
+  left: auto;
+  right: auto;
+  width: max-content;
+  height: content;
+  min-height: 200px;
+  min-width: 700px;
+  max-height: 500px;
+  max-width: 700px;
+  color: #ffffff;
+  background: #202020;
+  border-left: 8px solid #01b199;
+  border-radius: 4px;
+  overflow-x: auto;
+  user-select: text;
+}
+
+/* width */
+.code-area::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+.code-area::-webkit-scrollbar-track {
+  background: inherit;
+}
+
+/* Handle */
+.code-area::-webkit-scrollbar-thumb {
+  background: #03dabd;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+.code-area::-webkit-scrollbar-thumb:hover {
+  background: #0aa7a7;
+}
